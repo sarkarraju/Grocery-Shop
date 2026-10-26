@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}   
+.primary_bg{
+    background:#380821;
+}
+.banner-bg{
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+
+
+}
+.txt-color{
+    color: #ff5722;
+}
+.hero-section{
+    height:60dvh;
+}
+.img{
+  width: 70%;
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-item.hovr:hover{
+    color:yellow   !important;
+}
+
+.primary2_bg {
+    background:#280417;
+}
+.hero-section2{
+    height:45dvh;
+}
